@@ -1,0 +1,191 @@
+/*--------GENERAL CSS--------*/
+
+:root {
+
+  /* background-color */
+  --bg-white: #ffffff;
+  --bg-blue: #060640;
+  --bg-green:#04A56A;
+
+  /* text-color */
+  --primery-text: #060640;
+  --secondary-color: #00E5CC;
+  --text-gray: #828297;
+  --text-black: #000000;
+  --text-white: #ffffff;
+  --text-green:#04A56A;
+}
+
+body,
+html {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  margin: 0;
+}
+
+h1 {
+  color: var(--text-black);
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  color: var(--text-black);
+  font-size: 4.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: var(--primery-text);
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h4 {
+  color: var(--text-black);
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h5 {
+  color: var(--text-bkack);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+h6 {
+  color: var(--bg-white);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  color: var(--text-gray);
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+li a {
+  color: var(--text-gray);
+}
+
+section {
+  padding: 5rem 0 0 0;
+}
+.container{
+  width: 100% !important;
+}
+
+/*---------GENERAL CSS FOR IMAGES-----------*/
+.general-css for img {
+  /* background-image: url('../img/Header.jpg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--------CSS FOR MAIN BUTTON--------*/
+.main-btn {
+  background-color: var(--bg-green);
+  color: var(--bg-white);
+  padding: 0.5rem 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  border: 2px solid var(--bg-green);
+  border-radius: 25px;
+}
+
+.main-btn:hover {
+  border: 2px solid var(--bg-green);
+  background-color: var(--bg-white);
+  color: var(--text-green);
+}
+
+/*--------MEDIA QUEURE FOR NAVBAR--------- */
+@media screen and (max-width: 991px) {
+  .header-section .navbar-nav .nav-link {
+      padding: 0;
+  }
+
+  .main-btn {
+      padding: 0.5rem 1rem;
+  }
+}
+
+/*-------CSS FOR NAV-BAR-SECTION--------*/
+.nav-bar-section nav .navbar-nav .nav-item .nav-link{
+  padding: 0 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  /* color: var(--text-black); */
+  color: #5f5b5b;
+  align-items: center;
+  display: flex;
+}
+.nav-bar-section nav .navbar-nav .nav-item .nav-link i {
+  color: var(--text-gray);
+  font-size: 1.6rem;
+}
+.nav-bar-section .nav-right-content .blog-button{
+  border: none;
+  color: var(--text-black);
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: var(--bg-white);
+}
+.nav-bar-section .nav-right-content .blog-button i{
+  color: var(--bg-green);
+  font-size: 1.6rem;
+}
+.nav-bar-section .nav-right-content .main-btn i {
+  font-size: 1.6rem;
+}
+.nav-bar-section nav .navbar-brand img{
+  width: 2rem;
+}
+
+/*---------------css for banner section--------------*/
+.banner-section .left-side-banner-content h1 span{
+  color: var(--text-green);
+}
+.banner-section .left-side-banner-content p{
+  font-size: 3.2rem;
+}
+.banner-section .right-side-banner-content img{
+  jus
+}
+
+/*---------css for footer section----------*/
+

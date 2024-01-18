@@ -176,7 +176,7 @@ section {
   width: 2rem;
 }
 
-/*---------------css for banner section--------------*/
+/*---------------css for bannerr section--------------*/
 .banner-section .left-side-banner-content h1 span{
   color: var(--text-green);
 }
@@ -184,7 +184,7 @@ section {
   font-size: 3.2rem;
 }
 .banner-section .right-side-banner-content img{
-  jus
+  justify-content: center;
 }
 
 /*---------css for footer section----------*/

@@ -173,12 +173,18 @@ section {
   font-size: 1.6rem;
 }
 .nav-bar-section nav .navbar-brand img{
-  width: 2rem;
+  width: 5rem;
+}
+.nav-bar-section{
+  margin:  0 4rem;
 }
 
 /*---------------css for bannerr section--------------*/
 .banner-section .left-side-banner-content h1 span{
   color: var(--text-green);
+}
+.banner-section{
+  margin: 0 20rem;
 }
 .banner-section .left-side-banner-content p{
   font-size: 3.2rem;

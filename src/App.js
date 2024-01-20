@@ -3,7 +3,9 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import Banner from "./components/banner";
 import Blogbody from "./components/blogbody";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import Footer from "./components/footer";
+import Routes_list from "./routes";
 
 function App() {
   return (
@@ -11,8 +13,9 @@ function App() {
       <Navbar />
       <Banner />
       <BrowserRouter>
-        <Routes />
+        <Routes_list />
       </BrowserRouter>
+      <Footer />
     </>
   );
 }

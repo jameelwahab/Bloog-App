@@ -3,7 +3,7 @@ const post_list = [
     userId: 1,
     id: 1,
     title: "Sunt aut facere excepturi optio reprehenderit",
-    body: "Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+    body: "Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
   },
   {
     userId: 1,
@@ -608,3 +608,6 @@ const post_list = [
   //   },
 ];
 export default post_list;
+export const getPost = (pid) => {
+  return post_list.find((obj) => obj.id == pid);
+};

@@ -143,6 +143,9 @@ section {
 }
 
 /*-------CSS FOR NAV-BAR-SECTION--------*/
+.nav-bar-section{
+  background-color: var(--bg-white);
+}
 .nav-bar-section nav .navbar-nav .nav-item .nav-link{
   padding: 0 2.5rem;
   font-size: 2.2rem;
@@ -199,6 +202,8 @@ section {
   margin: 0 40rem;
   padding: 4rem 4rem;
   transition: all ease 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .post-list .post-list-content .post-list-content-detail:hover{
   background-color: #FFB6C1;
@@ -227,9 +232,13 @@ section {
   width: 30%;
   padding: 10px;
   margin: auto;
+  margin-top: 17rem;
 }
 
 /*---------css for footer section----------*/
+.footer{
+  background-color: var(--bg-white);
+}
 .footer .footer-content h3 span{
   color: var(--text-green);
 }

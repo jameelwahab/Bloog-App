@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <section className='footer'>
+        <section className='footer sticky-bottom'>
             <div className="row">
                 <div className="col-12 text-center">
                     <div className="footer-content mb-5">

@@ -3,7 +3,7 @@ import image from '../image/WhatsApp Image 2024-01-18 at 4.35.16 PM.jpeg'
 
 function Navbar() {
     return (
-        <div className="nav-bar-section mt-4 mb-5">
+        <div className="nav-bar-section mb-5 sticky-top">
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">

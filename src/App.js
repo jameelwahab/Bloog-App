@@ -7,10 +7,12 @@ import { BrowserRouter } from "react-router-dom";
 import Footer from "./components/footer";
 import Routes_list from "./routes";
 import Layout from "./Layout/Layout";
+import Axios from "./components/axios";
 
 function App() {
   return (
     <>
+      {/* <Axios /> */}
       <BrowserRouter>
         <Routes_list />
       </BrowserRouter>

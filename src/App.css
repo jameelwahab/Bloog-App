@@ -209,6 +209,10 @@ section {
   background-color: #FFB6C1;
   /* background-color: var(--bg-green) */
 }
+.post-list .post-list-content .post-list-content-detail .delete-mess{
+  color: red;
+  font-weight: 600;
+}
 .post-list .post-list-content .post-list-content-detail .delete-btn{
   font-size: 2rem;
   font-weight: 600;
@@ -234,10 +238,18 @@ section {
   margin: auto;
   margin-top: 17rem;
 }
+.back-button{
+  display: block;
+  /* padding: 5px 5px;
+  font-size: 15px;
+  font-weight: 600; */
+}
 
 /*---------css for footer section----------*/
 .footer{
   background-color: var(--bg-white);
+  width: 100%;
+  overflow: hidden;
 }
 .footer .footer-content h3 span{
   color: var(--text-green);
@@ -265,4 +277,14 @@ section {
 .footer .footer-icon a:hover{
   color: var(--bg-green);
 }
+#loading{
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#loading p{
+  margin-left: 30rem;
+}
+
 
